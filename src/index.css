@@ -1,13 +1,98 @@
-body {
+
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+.header{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid grey;
+  font-size: 0.7rem;
+}
+.form{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.itemwrapper{
+  border: 2px solid rgb(108, 102, 96);
+  margin: 8px;
+  margin-left: 80px;
+  border-radius: 9px;
+  width: 80%;
+  gap: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* .main{
+  height:auto;
+  width: 100%;
+  border: 2px solid green;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+} */
+.btnwrapper{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
+
+
+}
+.btnwrapper button{
+  height: 25px;
+  border-radius: 5px;
+  /* box-shadow: 1px 3px 5px 2px; */
+ 
+
+
+}
+.mainwrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer{
+  display: flex;
+  margin-top: 30rem;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 100%;
+  border-top: 1px solid grey;
+}
+.itemm{
+  margin-top: 5px;
+}
+.doneBtn{
+  color:green ;
+  background-color: white;
+  
+}
+.doneBtn:hover{
+  color: rgb(255, 255, 255) ;
+ background-color:green ;
+}
+.deleteBtn{
+  color:rgb(255, 0, 0) ;
+  background-color: white;
+  
+}
+.deleteBtn:hover{
+  color: rgb(255, 255, 255) ;
+ background-color:rgb(255, 0, 0) ;
 }
